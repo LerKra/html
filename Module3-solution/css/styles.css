@@ -1,0 +1,74 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+
+.page-header{
+    border-bottom: 0px;
+}
+.page-header h1{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 0px;
+  background-color: #ffffff;
+}
+#main-content {
+  background-color: #f8f8f8;
+}
+#main-content h2{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+
+}
+.navbar-default .navbar-toggle{
+  background-color: azure;
+
+}
+
+#nav-list{
+background-color: azure;
+border-bottom: 5px #ffffff;
+}
+
+#nav-list li a{
+  border-bottom: 5px #000000;
+}
+.container #main-content{
+  margin-bottom: 20px;
+  min-height: 400px;
+}
